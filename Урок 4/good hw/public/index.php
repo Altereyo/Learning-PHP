@@ -26,10 +26,6 @@ switch ($page) {
         $params['gallery'] = getGallery();
         $params['message'] = $status[$_GET["message"]];;
         break;
-
-    case 'apicatalog':
-        echo json_encode(getCatalog(), JSON_UNESCAPED_UNICODE);
-        die();
 }
 
 echo render($page, $params);
