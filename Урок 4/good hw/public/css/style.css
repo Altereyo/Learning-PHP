@@ -1,0 +1,49 @@
+body {
+    background-color: #ececec;
+}
+
+.container {
+    width: 920px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 10px 0 15px;
+}
+
+.imgLink {
+    text-decoration: none;
+}
+
+hr {
+    margin: 30px 0;
+    height: 1px;
+    background-color: black;
+    border: none;
+}
+
+.message {
+    font-size: 20px;
+    padding: 3px 5px;
+}
+
+#errorMsg {
+    color: rgb(255, 60, 60);
+    border: 1px solid rgb(255, 60, 60);
+    background-color: rgba(255, 60, 60, 0.11);
+}
+
+#resolveMsg {
+    color: rgb(0, 190, 0);
+    border: 1px solid rgb(0, 190, 0);
+    background-color: rgba(0, 190, 0, 0.11);
+}
+
+form {
+    margin-top: 10px;
+}
